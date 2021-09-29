@@ -1,0 +1,17 @@
+{
+  "name": "order_summary",
+  "version": "1.0.0",
+  "description": "frontend_mentor project",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel M",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "lite-server": "^2.6.1"
+  }
+}
