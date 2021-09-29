@@ -7,10 +7,16 @@
   /* Colors :Neutral */
   --very-pale-blue: hsl(225, 100%, 98%);
   --dark-blue: hsl(223, 47%, 23%);
+
+  /* Border Radius */
+  --border-radius: 1rem;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
@@ -38,17 +44,12 @@ p {
 
 .payment-btn:hover {
   box-shadow: 8px 10px 10px 1px var(--pale-blue);
-  background-color: var(--bright-blue);
-}
-
-.payment-btn:active {
-  box-shadow: 8px 10px 10px 1px var(--pale-blue);
-  background-color: var(--dull-blue);  
+  background-color: var(--dull-blue);
 }
 
 .plan-selector {
   background-color: var(--very-pale-blue);
-  border-radius: 1rem;
+  border-radius: var(--border-radius);
 }
 
 .cancel-link {
@@ -59,10 +60,6 @@ p {
 }
 
 .cancel-link:hover {
-  color: var(--dark-blue);
-}
-
-.cancel-link:active {
   color: black;
 }
 
@@ -72,16 +69,13 @@ p {
 
 .change-link:hover {
   color: var(--bright-blue);
-}
-
-.change-link:active {
   text-decoration: none;
 }
 
 .card {
-  border-radius: 1rem;  
+  border-radius: var(--border-radius);
 }
 
-.card-img-top{
-    border-radius: 1rem 1rem 0 0;
+.card-img-top {
+  border-radius: 1rem 1rem 0 0;
 }
